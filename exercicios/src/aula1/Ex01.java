@@ -1,0 +1,24 @@
+package aula1;
+
+import java.util.Scanner;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		float salario = 0F;
+		float abono = 0F;
+		float novoSalario = 0F;
+		
+		System.out.println("Olá, digite o valor do salário:");
+		salario = entrada.nextFloat();
+		
+		System.out.println("Olá, digite o valor do abono:");
+		abono = entrada.nextFloat();
+		
+		novoSalario = salario + abono;
+		
+		System.out.println("O seu novo salário é: " + novoSalario);
+		entrada.close();
+	}
+}
