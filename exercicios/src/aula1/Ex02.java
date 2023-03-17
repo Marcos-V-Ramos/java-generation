@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ex02 {
 	
-	private static void main (String[] args) {
+	private static void main(String[] args) {
 		double n1, n2, n3, n4;
 		
 		Scanner entrada = new Scanner(System.in);
